@@ -1,7 +1,16 @@
 
 ## The Plan
 
-At the moment i'm going to write _selective content_, writeup of some boxes or some challenges. I'm targeting what I find interesting and challenging or what it teaches me something (and what I have time to write).
+At the moment i'm going to write _selective content_, writeup of some boxes or some challenges. 
+I'm targeting what I find interesting and challenging or what it teaches me something (and what I have time to write).
+
+### CTF
+
+https://partywavesec.github.io/ctf/intro
+
+### HTB
+
+https://partywavesec.github.io/htb/intro
 
 ### Profiles
 
