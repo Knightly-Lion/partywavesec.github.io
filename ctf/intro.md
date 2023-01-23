@@ -10,3 +10,4 @@ The order is based on **CTF date**.
 
 [CYBERAPOCALYPSE 2022 - How The Columns Have Turned](https://partywavesec.github.io/ctf/2022/how_the_columns_have_turned)
 
+[Bsides Rome CTF 2023 - Magic Stack](https://partywavesec.github.io/ctf/2023/magic_stack)
