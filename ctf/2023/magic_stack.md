@@ -33,7 +33,7 @@ This step can be done via Ghidra (find the function) or via gdb that let you kno
 ```
 
 Now we can read the main function:
-```C
+```c
 undefined8 FUN_0040129b(int param_1,long param_2)
 
 {
@@ -74,7 +74,7 @@ undefined8 FUN_0040129b(int param_1,long param_2)
 
 A beautified version is :
 
-![beautified](https://github.com/partywavesec/partywavesec.github.io/blob/main/ctf/images/magic_stack_main.png)
+![beautified](/ctf/images/magic_stack_main.png)
 
 The main function accept as first arg a file path that is opened by ```fopen()``` function. An array of 10 char (renamed 'file_content') read 10 bytes from the FILE stream 
 and checks if the first char is lower than '\n' char.
@@ -150,4 +150,4 @@ msf-pattern_create -l 150
 msf-pattern_offset -q <VALUE>
 ```
 
-![flag](https://github.com/partywavesec/partywavesec.github.io/blob/main/ctf/images/magic_stack_flag.png)
+![flag](/ctf/images/magic_stack_flag.png)
